@@ -1,7 +1,7 @@
 def firstPart(input):
     firstList = []
     secondList = []
-    with open('input1.txt', 'r') as file:
+    with open(input, 'r') as file:
         for line in file:
             l = line.split("   ")
             firstList.append(int(l[0]))
@@ -13,7 +13,7 @@ def firstPart(input):
 def secondPart(input):
     firstList = []
     secondList = []
-    with open('input1.txt', 'r') as file:
+    with open(input, 'r') as file:
         for line in file:
             l = line.split("   ")
             firstList.append(int(l[0]))
