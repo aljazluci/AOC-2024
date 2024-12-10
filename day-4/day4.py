@@ -63,5 +63,5 @@ def secondPart(input):
     print(sum([slidingWindow(board, window) for window in windows]))
             
 if __name__ == "__main__":
-    # firstPart("input.txt")
+    firstPart("input.txt")
     secondPart("input.txt")

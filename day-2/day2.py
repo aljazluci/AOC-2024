@@ -51,5 +51,5 @@ def secondPart(input):
     print(safeReports)
 
 if __name__ == "__main__":
-    # firstPart("input.txt")
+    firstPart("input.txt")
     secondPart("input.txt")

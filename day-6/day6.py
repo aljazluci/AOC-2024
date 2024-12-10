@@ -76,5 +76,5 @@ def secondPart(input):
     
 
 if __name__ == "__main__":
-    # firstPart("input.txt")
+    firstPart("input.txt")
     secondPart("input.txt")

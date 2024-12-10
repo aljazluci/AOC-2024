@@ -40,5 +40,5 @@ def secondPart(input):
     print(getAll(all))
             
 if __name__ == "__main__":
-    # firstPart("input.txt")
+    firstPart("input.txt")
     secondPart("input.txt")
